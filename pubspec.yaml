@@ -23,7 +23,10 @@ dependencies:
   uuid: ^3.0.6
   synchronized: ^3.0.0+3
   protobuf: ^2.1.0
-  flutter_webrtc: 0.9.24
+  flutter_webrtc:
+    git:
+      url: https://github.com/virani-apps/flutter-webrtc.git
+      ref: youp
   flutter_window_close: ^0.2.2
   device_info_plus: ^8.0.0
   webrtc_interface: 1.0.11
